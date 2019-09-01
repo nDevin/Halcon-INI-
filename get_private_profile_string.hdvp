@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hdevelop file_version="1.1" halcon_version="17.12">
+<procedure name="get_private_profile_string">
+<interface>
+<ic>
+<par name="FilePath" base_type="ctrl" dimension="0"/>
+<par name="Section" base_type="ctrl" dimension="0"/>
+<par name="Key" base_type="ctrl" dimension="0"/>
+</ic>
+<oc>
+<par name="Value" base_type="ctrl" dimension="0"/>
+</oc>
+</interface>
+<xb>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</xb>
+<docu id="get_private_profile_string">
+<library lang="zh_CN">EVOC Intelligent tech Co., Ltd.</library>
+<short lang="zh_CN">读取INI配置文件</short>
+<parameters>
+<parameter id="FilePath">
+<default_type>string</default_type>
+<default_value>FilePath</default_value>
+<description lang="zh_CN">文件路径</description>
+<mixed_type>false</mixed_type>
+<multivalue>false</multivalue>
+<sem_type>string</sem_type>
+<type_list>
+<item>string</item>
+</type_list>
+</parameter>
+<parameter id="Key">
+<default_type>string</default_type>
+<default_value>Key</default_value>
+<description lang="zh_CN">键值</description>
+<mixed_type>false</mixed_type>
+<multivalue>false</multivalue>
+<sem_type>string</sem_type>
+<type_list>
+<item>string</item>
+</type_list>
+</parameter>
+<parameter id="Section">
+<default_type>string</default_type>
+<default_value>Section</default_value>
+<description lang="zh_CN">区域</description>
+<mixed_type>false</mixed_type>
+<multivalue>false</multivalue>
+<sem_type>string</sem_type>
+<type_list>
+<item>string</item>
+</type_list>
+</parameter>
+<parameter id="Value">
+<default_type>string</default_type>
+<description lang="zh_CN">获得结果</description>
+<mixed_type>false</mixed_type>
+<multivalue>false</multivalue>
+<sem_type>string</sem_type>
+<type_list>
+<item>string</item>
+</type_list>
+<values>
+<item>Value</item>
+</values>
+</parameter>
+</parameters>
+</docu>
+</procedure>
+</hdevelop>
